@@ -27,11 +27,7 @@ This is the backend for the iNotebook application, a platform to manage notes se
    - Ensure MongoDB is running on your machine.
    - The app is configured to connect to `mongodb://localhost:27017` by default. Update the `mongoURI` in `db.js` if necessary.
 
-4. Set up environment variables:
-   - Create a `.env` file in the root directory and add the following:
-     ```
-     JWT_SECRET=your_jwt_secret_key
-     ```
+
 
 ## Running the Server
 
